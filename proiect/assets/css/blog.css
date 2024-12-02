@@ -1,0 +1,59 @@
+
+h1 {
+    text-align: center;
+}
+
+#tabel1{
+    border: 2px double black;
+    border-collapse: collapse;
+    position: absolute;
+    left: 38%;
+
+   
+
+}
+
+thead tr th, tbody tr td, tfoot tr td {
+    border: 2px double black;
+    width: 200px;
+    height: 30px;
+    
+}
+
+
+thead tr th {
+    background-color: burlywood;
+}
+
+tbody tr td {
+    background-color: rgba(222, 184, 135, 0.461)
+}
+
+
+tfoot tr td { 
+    background-color: rgba(222, 184, 135, 0.303)
+}
+
+/* Asigură că pagina ocupă întreaga înălțime a ferestrei */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Layout pentru a împinge footer-ul în jos */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* Face ca secțiunea principală să se extindă */
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+  }
+  

@@ -1,0 +1,11 @@
+1-5  x
+2-5  ok  
+3-inline, intern, extern x
+4-case-insensitive ok
+5-mergin, padding, width, height, border ok
+6-
+7-inline ocupa doar cat spatiu are nevoie, block ocupa tot spatiul ok
+8-2 ok
+9-3 ok 
+10-1 ok
+

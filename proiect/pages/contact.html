@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect PMS: HTML + CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/img/favicon/site.webmanifest">
+    <meta name="description" content="First project">
+    <meta name="keywords" content="HTML + CSS">
+    <meta name="author" content="Lungu Marian">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo" src="../assets/img/LOGO.png" alt="Logo PMS">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Acasa</a></li>
+                <li><a href="../pages/portofoliu.html">Portofoliu</a></li>
+                <li><a href="../pages/blog.html">Blog</a></li>
+                <li><a href="../pages/despre.html">Despre noi</a></li>
+                <li class="active"><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" method="post">
+        <h2>Formular de contact</h2>
+        <div id="card">
+            <fieldset>
+                <legend>Card</legend>
+                <div>
+                    <label for="numar">Numar card:</label>
+                    <input type="text" name="numar" id="numar" required>
+                </div>
+                <div>
+                    <label for="date">Data expirare:</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+            </fieldset>
+        </div>
+        <div id="livrare">
+            <fieldset>
+                <legend>Livrare</legend>
+                <div>
+                    <label for="prenume">Prenume:</label>
+                    <input type="text" name="prenume" id="prenume" required>
+                </div>
+                <div>
+                    <label for="nume">Nume:</label>
+                    <input type="text" name="nume" id="nume" required>
+                </div>
+                <div>
+                    <label for="companie">Companie:</label>
+                    <input type="text" name="companie" id="companie" required>
+                </div>
+                <div>
+                    <label for="adresa">Adresa:</label>
+                    <input type="text" name="adresa" id="adresa" required>
+                </div>
+                <div>
+                    <label for="oras">Oras:</label>
+                    <input type="text" name="oras" id="oras" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="tel">Telefon:</label>
+                    <input type="tel" name="tel" id="tel" required>
+                </div>
+            </fieldset>
+        </div>
+        <div id="produs">
+            <fieldset>
+                <legend>Adauga produsele</legend>
+                <label for="masina">Masina:</label>
+                <select name="masina" id="masina">
+                    <option value="1">Bmw</option>
+                    <option value="2">Audi</option>
+                    <option value="3">Mercedes</option>
+                    <option value="4">Toyota</option>
+                </select>
+                <div>
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea name="mesaj" id="mesaj">Doresc o masina nou</textarea>
+                </div>
+            </fieldset>
+        </div>
+        <div id="button">
+            <button type="submit">Trimite comanda</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Imperial Script';
+    src: url('ImperialScript-Regular.eot');
+    src: url('ImperialScript-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ImperialScript-Regular.woff2') format('woff2'),
+        url('ImperialScript-Regular.woff') format('woff'),
+        url('ImperialScript-Regular.ttf') format('truetype'),
+        url('ImperialScript-Regular.svg#ImperialScript-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

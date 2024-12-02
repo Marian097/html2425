@@ -1,0 +1,88 @@
+form {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 600px;
+}
+
+
+#card div, #livrare div {
+    margin-left: 15px;
+}
+
+
+#card input {
+    display: inline;
+    margin-left: 5px;
+    margin-top: 3px;
+
+}
+
+
+#prenume {
+    margin-left: 7px;
+}
+
+
+
+#nume {
+    margin-left: 26px;
+
+}
+
+#companie {
+    margin-right: 10px;
+}
+
+div #numar {
+    margin-left: 15px;
+}
+
+
+
+.nume {
+    margin-left: 10px;
+}
+
+
+#adresa {
+    margin-left: 20px;
+}
+
+#oras {
+    margin-left: 35px;
+}
+
+#email {margin-left: 27px;
+}
+
+#tel {
+    margin-left: 16px;
+}
+
+
+#livrare div {
+    padding: 2px;
+}
+
+
+
+
+#produs div textarea {
+    height: 100px;
+    width: 300px;
+}
+
+
+
+form {
+    position: relative;
+    left: 35%;
+    padding-top: 40px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+
