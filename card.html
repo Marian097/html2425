@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./proiect final/static/inregistrare.css">
+    <title>Formular 1</title>
+</head>
+
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Adresa livrare</legend>
+            <div class="livrare">
+                <label for="judet">Judet:</label>
+                <select name="judet" id="judet">
+                    <option value="1">Brasov</option>
+                </select>
+            </div>
+            <div class="livrare">
+                <label for="oras">Oras:</label>
+                <select name="oras" id="oras">
+                    <option value="1">Brasov</option>
+                </select>
+            </div>
+            <div class="livrare"> 
+                <label for="strada">Strada:</label>
+                <input type="text" name="strada" id="strada">
+            </div>
+            <div class="livrare">
+                <label for="numar_strada">Numar:</label>
+                <input type="text" name="numar_strada" id="numar_strada">
+            </div>
+            <div class="livrare" >
+                <label for="bloc">Bloc:</label>
+                <input type="text" name="bloc" id="bloc">
+            </div>
+            <div class="livrare">
+                <label for="scara">Scara:</label>
+                <input type="text" name="scara" id="scara">
+            </div>
+            <div class="livrare">
+                <label for="ap">Apartament:</label>
+                <input type="text" name="ap" id="ap">
+            </div>
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend>Card</legend>
+            <div>
+                <label for="numar">Numar card:</label>
+                <input type="text" name="numar" id="numar" placeholder="Numar card" required>
+            </div>
+            <div>
+                <label for="name_card">Titular card:</label>
+                <input type="text" name="name_card" id="name_card" placeholder="Nume titular" required>
+            </div>
+            <div>
+                <label for="cvv">CVV:</label>
+                <input type="text" name="cvv" id="cvv" placeholder="CVV" required>
+            </div>
+
+            <div>
+                <label for="date">Data de expirare:</label>
+                <input type="date" name="date" id="date" placeholder="Data de expirare">
+            </div>
+            <div>
+                <label for="suma">Suma:</label>
+                <input type="number" name="suma" id="suma" placeholder="Suma" required>
+            </div>
+            <div>
+                <button type="submit">Trimite comanda</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+
+.livrare input {
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+#strada, #numar_strada, #bloc, #scara, #ap {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+
+/* body form .livrare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+
+} */
+
+
+form .livrare label {
+    padding-top: 0px;
+    margin-right: 15px;
+}
+
+
+body form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body form fieldset {
+    background-color: white;
+}
+
+
+
+form fieldset {
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+form div input {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+form div #cvv {
+    margin-left: 83px;
+}
+
+form div label {
+    font-size: 20px;
+}
+
+form div #suma {
+    margin-left: 78px;
+}
+
+
+form fieldset button {
+    margin: 30px 150px;
+}
+
+
+

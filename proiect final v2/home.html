@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCT</title>
-    <link rel="icon" href="C:\\Users\\Pc\\Desktop\\html2425\\proiect final\\static\\favicon.ico">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="logo">
+            <img id="logo" src="./assets/img/logo.png" alt="Logo">
         </div>
         <nav>
             <ul>
-                <li><a>Inregistrare</a></li>
+                <li><a href="./pages/inregistrare.html">Inregistrare</a></li>
                 <li><a>Login</a></li>
                 <li><a>Despre noi</a></li>
                 <li><a>Ajutor</a></li>

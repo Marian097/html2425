@@ -11,8 +11,13 @@ database=DB("database.db")
 
 
 
-@app.route('/', methods=['GET','POST'])
-def home():
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    return render_template ("index.html")
+
+
+@app.route('/inregistrare', methods=['GET','POST'])
+def inregistrare():
     database.open_db()
     if request.method == "POST":
         name=request.form["name"]
@@ -25,7 +30,7 @@ def home():
         database.conection.commit()
         
     
-    return render_template ('index.html')
+    return render_template ('inregistrare.html')
 
 # Pornește aplicația
 if __name__ == '__main__':
