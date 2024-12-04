@@ -1,0 +1,57 @@
+.first_header{
+    background-color:grey;
+    padding: 0.5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 200px;
+    width: 100%;
+
+
+}
+
+#livrare{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+.second_header {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    border-bottom: 5px;
+    border-style: solid;
+    border-radius: 100px;
+
+   
+
+}
+
+img {
+    border-radius: 100px;
+    padding: 3px;
+}
+
+
+
+section {
+    background-position: 33% 33% 33%;
+    background-position-y: 50%;
+    background-color: rgb(228, 191, 121);
+    border-radius: 100px;
+}
+
+
+
+#geaca_tom_tailor, #papuci_matase, #reducere_nike {
+    margin-left: 1cm;
+}
+
+
+nav {
+    background-color: white;
+}
