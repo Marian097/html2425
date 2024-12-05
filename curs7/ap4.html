@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  width: 100%;
+  height: 1000px;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > .item1 {
+    width: 2500px;
+    height: 450px;
+    border: 3px black solid;
+}
+
+.grid-container > .item2 {
+    display:block;
+    height: 900px;
+    width: 600px;
+    border: 3px solid black;
+}
+
+</style>
+</head>
+<body>
+
+<h1>The grid-template-columns Property</h1>
+
+<p>Use the <em>grid-template-columns</em> property to define the number of columns in the grid layout.</p>
+<p>This grid layout has four columns:</p>
+
+<div class="grid-container">
+  <div class="item1">
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Maxime necessitatibus excepturi voluptatum. Nemo.</p>
+    <p>Blanditiis eius vel ipsum eum.</p>
+    <p>Odio voluptate accusamus esse autem.</p>
+  </div>
+  <div class="item2">
+    <img src="https://placehold.co/350x150">
+    <img src="https://placehold.co/350x150">
+    <img src="https://placehold.co/350x150">
+</div>
+</div>
+
+</body>
+</html>

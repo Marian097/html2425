@@ -1,0 +1,45 @@
+
+
+p:nth-of-type(2n){
+    color: green;
+}
+
+p:nth-of-type(2n+1){
+    color: burlywood;
+}
+
+
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: blue;
+}
+
+
+
+body{
+    counter-reset: titlu;
+}
+
+h1::before{
+    counter-increment: titlu;
+    content: counter(titlu) ". ";
+}
+
+
+h1 {
+    counter-reset: subtitlu;
+    color: blue;
+}
+
+h3{
+    color: brown;
+}
+
+h3::before {
+    margin-left: 20px;
+    counter-increment: subtitlu;
+    content: counter(titlu) "." counter(subtitlu) ". ";
+}

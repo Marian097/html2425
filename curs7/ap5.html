@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        caption{
+            font-size: 50px;
+        }
+
+        table {
+            margin: 30px 1100px;
+        }
+        
+        tbody tr td,tfoot tr td {
+            width: 300px;
+            height: 100px;
+        }
+
+        tbody tr:nth-child(2n+1){
+            background-color: plum;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: blue;
+        }
+        tfoot tr:nth-child(2n+1) {
+            background-color: rgba(31, 13, 49, 0.508);
+        }
+        tfoot tr:nth-child(2n) {
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <caption>Tabel</caption>
+            <tr>
+                <td>Timisoara</td>
+                <td>200</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Cluj</td>
+                <td>150</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>Bucuresti</td>
+                <td>1200</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Iasi</td>
+                <td>50</td>
+                <td>700</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1600</td>
+                <td>13770</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td> 50987</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
